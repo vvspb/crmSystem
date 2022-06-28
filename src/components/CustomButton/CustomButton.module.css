@@ -1,0 +1,52 @@
+:root{
+    --listSideBar: #091336;
+    --listSideBarHover:rgba(216, 228, 251, 0.32);
+    --clickSideBar: #091336;
+    --clickSideBarHover:rgba(216, 228, 251, 0.32);
+    --btnSideBar:#005FF8;
+}
+
+/* Button colors and style*/
+
+.btn--listSideBar{
+    display: flex;
+    align-items: center;
+    background-color: var(--listSideBar);
+    width: 240px;
+    height: 52px;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+.btn--listSideBar:hover{
+    background: var(--listSideBarHover);
+    color: #ffff;
+    padding: 0px;
+}
+.btn--clickSideBar{
+    display: flex;
+    align-items: center;
+    background-color: var(--listSideBar);
+    width: 240px;
+    height: 52px;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+.btn--clickSideBar:hover{
+    background: var(--listSideBarHover);
+    color: #ffff;
+    padding: 0px;
+}
+.btn--clickSideBar:after{
+    content: '';
+    background: #FFD500;
+    box-shadow: 0px 3px 8px rgba(237, 218, 1, 0.5);
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+    margin-right: 12px;
+    margin-left: 2px;
+}

@@ -1,0 +1,45 @@
+.row {
+    width: 1440px;
+    height: 65px;
+    display: grid;
+    grid-template-columns: 50px 50px 80px 130px 350px 200px 150px 400px;
+    align-items: center;
+    justify-items: start;
+    color: #122945;
+    position: relative;
+
+}
+
+.border {
+    position: absolute;
+    right: 0%;
+    width: 1400px;
+    margin: 0%;
+    border-top: 1px solid #EAF0FA;
+    
+}
+
+.errors {
+    display: flex;
+    text-align: end;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+
+    color: #EA1A4F;
+
+}
+
+.row__cell {
+    display: inline;
+    justify-self: end;
+}
+
+.row:hover {
+    box-sizing: border-box;
+    border-top: 1px solid #EAF0FA;
+    border-bottom: 1px solid #EAF0FA;
+    background: rgba(212, 223, 243, 0.17);
+}

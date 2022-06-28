@@ -1,0 +1,36 @@
+.menu {
+    display: flex;
+
+}
+
+.menu li {
+    width: 204;
+    list-style: none;
+    background: #FFFFFF;
+    border: 1px solid #EAF0FA;
+    box-shadow: 0px 0px 26px;
+}
+
+.menu a {
+    background: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 12px 135px 12px 20px;
+}
+
+.menu a:hover {
+    background: #005FF8;
+    opacity: 0.13;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 12px 135px 12px 20px;
+}
